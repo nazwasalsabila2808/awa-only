@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Promo Special - Richeese</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background-color: #fff9f3;
+        }
+        header {
+            background: #f6f2ed;
+            display: flex;
+            align-items: center;
+            padding: 10px 30px;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+        }
+        .logo img {
+            height: 60px;
+        }
+        nav {
+            display: flex;
+            gap: 30px;
+            font-weight: bold;
+            font-size: 14px;
+            color: #333;
+            align-items: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            cursor: pointer;
+        }
+        nav a:hover {
+            color: #e74c3c;
+        }
+        nav .special-event {
+            position: relative;
+            color: #f1c40f;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        nav .special-event::after {
+            content: "🔥";
+            position: absolute;
+            top: -10px;
+            right: -20px;
+            font-size: 18px;
+        }
+        main {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        main h1 {
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #3e1f06;
+            font-weight: 900;
+        }
+        .promo-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .promo-card {
+            background: #fff;
+            border-radius: 15px;
+            width: 250px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .promo-card img {
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        }
+        .promo-title {
+            font-weight: 700;
+            font-size: 18px;
+            margin-bottom: 8px;
+            color: #4b3a22;
+        }
+        .promo-desc {
+            font-size: 14px;
+            color: #6e5b4d;
+            min-height: 40px;
+        }
+        /* Dekorasi samping */
+        .decor-left {
+            position: fixed;
+            top: 50%;
+            left: 15px;
+            transform: translateY(-50%);
+            width: 80px;
+            opacity: 0.15;
+        }
+        .decor-right {
+            position: fixed;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            width: 80px;
+            opacity: 0.15;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://play-lh.googleusercontent.com/YVpirv926fFg9z10S6_CDHulz8hWMIHpyFBGAPWou3XdI2FQG-Ck2z5G8Uger189QCQ=w600-h300-pc0xffffff-pd" alt="Richeese Logo" />
+        </div>
+        <nav>
+            <a href="#our-menu">OUR MENU</a>
+            <a href="#promo">PROMO</a>
+            <a href="#special-event" class="special-event">SPECIAL EVENT</a>
+            <a href="#follow-us">FOLLOW US</a>
+            <a href="#discover">DISCOVER</a>
+            <a href="#location">LOCATION</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Promo Special</h1>
+        <div class="promo-container">
+
+            <div class="promo-card">
+                <img src="https://richeesefactory.com/media/thumb/information_main_image/2025/7/31/hhbhq8xf7vw4fpqzlw62ay_size_370.jpg" alt="2 Combo Fire Wings Promo" />
+                <div class="promo-title">2 Combo Fire Wings</div>
+                <div class="promo-desc">Cheesemate, Combo 2 Fire Wings cocok nih buat harimu makin seru</div>
+            </div>
+
+            <div class="promo-card">
+                <img src="https://richeesefactory.com/media/thumb/information_main_image/2025/7/31/xmckza9naoue5tagr6dtqo_size_497.jpg" alt="Happy Hour Promo" />
+                <div class="promo-title">Happy Hour</div>
+                <div class="promo-desc">Pernah gak sih, udah makan tapi jam 2 siang udah laper lagi?</div>
+            </div>
+
+            <div class="promo-card">
+                <img src="https://richeesefactory.com/media/thumb/information_main_image/2025/1/28/lelcmhqgm7c8547f33vtv5_size_497.jpeg" alt="RF APP Diskon Pengguna Baru" />
+                <div class="promo-title">RF APP : DISKON PENGGUNA BARU</div>
+                <div class="promo-desc">Cheesemate, download RF APP dan dapatkan diskon pengguna baru!</div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+  <div class="footer-container">
+    <div class="footer-column logo-column">
+      <img src="https://play-lh.googleusercontent.com/YVpirv926fFg9z10S6_CDHulz8hWMIHpyFBGAPWou3XdI2FQG-Ck2z5G8Uger189QCQ=w600-h300-pc0xffffff-pd" alt="Richeese Factory Logo Footer" />
+    </div>
+    <div class="footer-column info-links">
+      <ul>
+        <li><a href="#">Hubungi kami</a></li>
+        <li><a href="#">Penemuan</a></li>
+        <li><a href="#">Karier</a></li>
+      </ul>
+    </div>
+    <div class="footer-column service-links">
+      <ul>
+        <li><a href="#">Pesanan Besar</a></li>
+        <li><a href="#">Hari ulang tahun</a></li>
+        <li><a href="#">Kebijakan Privasi</a></li>
+      </ul>
+    </div>
+    <div class="footer-column location-column">
+      <p>Temukan Richeese Factory terdekat</p>
+      <iframe src="https://maps.google.com/maps?q=richeese%20factory&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+        width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  </div>
+
+  <div class="social-icons">
+    <a href="#" aria-label="Instagram" title="Instagram">
+      <img src="https://img.freepik.com/vektor-premium/ikon-instagram-logo-instagram-vektor-instagram_1153029-428.jpg" alt="Instagram" />
+    </a>
+    <a href="#" aria-label="TikTok" title="TikTok">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7g6JFt5L13ihwF_U0ywF4aM6gpNWXm-Gblg&s" alt="TikTok" />
+    </a>
+    <a href="#" aria-label="Facebook" title="Facebook">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQezzH-MlN3i9JOvCiwZNPNbXhwHcSJgK1OdQ&s" alt="Facebook" />
+    </a>
+    <a href="#" aria-label="YouTube" title="YouTube">
+      <img src="https://cdn-icons-png.freepik.com/512/3128/3128307.png" alt="YouTube" />
+    </a>
+  </div>
+
+  <div class="halal-logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Halal_Indonesia.svg/1145px-Halal_Indonesia.svg.png" alt="Halal Logo"/>
+  </div>
+
+  <div class="feedback">
+    <p><strong>Kritik & Saran</strong></p>
+    <p><a href="mailto:rf-comments@richeesefactory.com">rf-comments@richeesefactory.com</a></p>
+  </div>
+
+  <div class="copyright-bar">
+    © 2024 Richeese Factory
+  </div>
+</footer>
+</body>
+</html>
